@@ -36,3 +36,178 @@
     transform: rotate(360deg);
   }
 }
+
+img#mail-icon{
+  width: 100px;
+  height: 80px;
+  padding-left: 20px;
+}
+
+.phone-book-header{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+.phone-book-title{
+  padding-left: 30px;
+  padding-top: 18px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+input.form-control {
+  width: 92%;
+}
+
+.new-contact-title{
+  text-align: initial;
+  background-color: rgb(121, 160, 95);
+  border: 2px solid black;
+  padding-left: 12px;
+
+}
+
+div.container{
+  max-width: 1350px;
+
+}
+
+div.form-row{
+  padding: 30px;
+}
+
+.contact-name-border{
+
+  border-top: 1px solid black;
+  border-right: solid black;
+  border-left: solid black;
+  border-bottom: solid black;
+}
+
+.phone-column{
+  display: flex;
+}
+
+svg{
+  vertical-align: bottom;
+}
+
+.plus-icon{
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+}
+
+.add-button{
+  background-color: cadetblue;
+  border: solid 2px;
+  border-radius: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+}
+
+:hover.add-button{
+  background-color: rgb(141, 22, 22);
+}
+
+.add-button-spacing{
+  padding-left: 15px;
+}
+
+
+button{
+  display: contents;
+}
+
+.Naver{
+  display: flex;
+  background-color: #282c34;
+  color: coral;
+}
+
+.Naver div{
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.section-head{
+  display: flex;
+  justify-content: center;
+}
+
+.section-content{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  display: grid;
+}
+
+
+.person-icon{
+  width: 65px;
+  height: 65px;
+}
+
+.icon-spacing{
+  padding-right: 15px;
+}
+
+.name-text{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: block ruby;
+}
+
+.name-position{
+display: flex;
+width: auto;
+}
+
+.phone-number-text{
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.main-content-positioner{
+  display: flex;
+  border-right: 3px;
+  border-left: 3px;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.left-section-handler{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.right-section-handler{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.trash-icon{
+  padding-top: 20px;
+  
+}
+.trash-sizing{
+  height: 20px;
+  width: 20px;
+}
+
+
+.phone-icon{
+height: 32px;
+width: 32px;
+}
+
+.phone-spacing{
+  padding-top: 10px;
+}
